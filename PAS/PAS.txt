@@ -1,0 +1,46 @@
+číselné-spojité(výška, hmotnost)
+	diskrétní(počty většinou - počet dětí(celá čísla))
+kategorické-nominální(barva, id, ano/ne)
+	    ordinální(dají se uspořádat)
+
+prumer+-sd…68%
+prumer+-3sd...99%
+
+šikmost(skew)(zhruba do 0,3 nejde videt na grafu)
+kopecek vlevo = šikmost>0
+kopecek uprostřed = šikmost=0
+kopecek vpravo = šikmost<0
+
+špičatost(kurt)(zhruba do 0,5 nejde videt na grafu) - při více vrcholovém grafu nedává smysl
+úzký vysoký kopec = špičatost>0
+kopec střední (tvar zvonu) = špičatost=0
+koopec nízký tlustý = špičatost<0
+
+odlehlé hodnoty hledáme když: symetrický jednovrcholový graf
+IQR	-od bližšího kvartilu dále než 1,5.IQR=1,5.(Q3-Q1)
+	-od bližšího kvartilu dále než 3.IQR=3.(Q3-Q1)
+	-záleží na posouzení zda je to anomálie
+sd(x)	-průměr+-3.sd(x)
+	-průměr+-4.sd(x)
+u nesymetrických použijeme symetrizující transformace:
+1)Y=ln(x)…….pouze pro kladné hodnoty
+2)sqrt((x-min)/(max-min))
+
+cor <-1;1> závislost rozdělujeme na silná/slabá přímá/nepřímá (silná od 0,7 cca)
+-1...ideální nepřímá závislost (jedna klesá druhá roste) (graf přímka zleva nahoře do prava dolu)
+0...lineární nezávislost (graf random body)
+1...ideální přímá závislost (jedná stoupá druhá stoupá) (graf přímka zleva dole do prava nahoru)
+
+
+nulová hypotéza H0 - jedna varianta - normální rozdělení - nezavislost
+alternativní hypotéza H1 - ta  co chci prokázat - není normální rozdělení- zavislost
+hladina významnosti (alfa=0,05)
+p-hodnota <= alfa - zamítáme H0, platí H1
+p-hodnota > alfa - nezamítáme H0
+
+
+
+P(x>=7) = 1-P(x<=6)
+
+
+výběrový průměr (X s čarou) … nejlepší bodový odhad střední hodnoty

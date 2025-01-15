@@ -1,0 +1,5 @@
+1) byla šikmost: tam byla jedna negativní a druhá pozitivní, nebyla symetrická 
+2) interval medianu: 1.67 a 1.69
+3) modus: 65 
+4) vztah mezi pohlaví a obor: udelas tabulku, ze který uvidíš poměry, pak jsem přidal barchart a zobrazil to v grafu a nakonec jsem udělal chi_square_test, přičemž mi vyšlo ve všem, že na některý obory jdou více muži a na jiný zase ženy, závěr -> nebylo možné vyloučit závislost ani nezávislost 
+6) kvartily: uděláš pro obě proměnné a zjistíš ze se liší 
